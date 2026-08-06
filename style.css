@@ -7,6 +7,10 @@ h1{
     margin-bottom: 30px;
     
 }
+.done{
+  text-decoration: line-through;
+  color: #999;
+}
 input{
 width: 100%;
 padding: 16px;
