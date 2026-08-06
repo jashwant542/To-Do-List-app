@@ -1,3 +1,4 @@
+
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link rel="stylesheet" href="style.css">
@@ -20,7 +21,7 @@ function add(){
 var listitem=document.createElement("li")
 var checkbox=document.createElement("input")
 checkbox.type="checkbox"
-checkbox.onclick=function(){span.classlist.toggle("done")}
+checkbox.onclick=function(){span.classList.toggle("done")}
 var span=document.createElement("span")
 span.textContent=input.value
 var deletebtn=document.createElement("button")
@@ -54,3 +55,4 @@ ul.addEventListener("click",function(event){
 
 
 </script>
+
